@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI";
+}
+  
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+  
+  .btn:hover {
+    opacity: 1;
+}
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #fff;
+}
+  
+.heading {
+    text-align: center;
+    padding-top: 50px;
+    color: #143c83; /* warnanya masih salah */ 
+}
+
+.lesson {
+    padding: 50px 50px;
+    float: left;
+    width: 10%;
+}
+  
+.lesson-icon img {
+    width: 200px;
+    border: 1px solid #143c83;
+    cursor: pointer;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+  
+.message {
+    padding: 10px 15px;
+    color: #eee;
+    font-weight: bold;
+    background-color: #e54751;
+    cursor: pointer;
+    box-shadow: 0 7px #af353d;
+}
+
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
